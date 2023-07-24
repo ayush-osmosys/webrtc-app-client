@@ -1,11 +1,9 @@
-import "./App.css";
-import { JoinButton } from "./components/JoinButton";
+import { JoinButton } from "../components/JoinButton";
 
-function App() {
+export const Home = () => {
   return (
     <div className="App flex items-center justify-center w-screen h-screen">
       <JoinButton></JoinButton>;
     </div>
   );
-}
-export default App;
+};
